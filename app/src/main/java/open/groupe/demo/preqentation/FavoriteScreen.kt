@@ -11,20 +11,17 @@ import androidx.navigation.NavController
 import open.groupe.demo.navigation.Screens
 
 @Composable
-fun HomeScreen(navController: NavController){
+fun FavoriteScreen(navController: NavController){
     Column(modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
-        Text(text = "Home")
-        Button(onClick = { navController.navigate(Screens.LoginScreenRoute.route) }) {
-            Text(text = "Login")
+        Text(text = "Favorite")
+        Button(onClick = { navController.navigate(Screens.HomeScreenRoute.route) }) {
+            Text(text = "Home")
         }
         Button(onClick = { navController.navigate(Screens.ProfileScreenRoute.route) }) {
             Text(text = "Profile")
-        }
-        Button(onClick = { navController.navigate(Screens.FavoriteScreenRoute.route) }) {
-            Text(text = "Favorite")
         }
     }
 }

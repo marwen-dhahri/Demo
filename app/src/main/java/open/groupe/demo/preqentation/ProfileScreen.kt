@@ -20,5 +20,8 @@ fun ProfileScreen(navController: NavController){
         Button(onClick = { navController.navigate(Screens.HomeScreenRoute.route) }) {
             Text(text = "Home")
         }
+        Button(onClick = { navController.navigate(Screens.FavoriteScreenRoute.route) }) {
+            Text(text = "Favorite")
+        }
     }
 }
