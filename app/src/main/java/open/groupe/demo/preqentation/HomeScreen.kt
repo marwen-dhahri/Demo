@@ -26,5 +26,8 @@ fun HomeScreen(navController: NavController){
         Button(onClick = { navController.navigate(Screens.DetailScreenRoute.route) }) {
             Text(text = "Detail")
         }
+        Button(onClick = { navController.navigate(Screens.FavoriteScreenRoute.route) }) {
+            Text(text = "Favorite")
+        }
     }
 }

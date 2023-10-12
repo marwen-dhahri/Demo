@@ -19,5 +19,8 @@ fun NavGraphBuilder.appGraph(navController: NavController){
         composable(route = Screens.DetailScreenRoute.route){
             DetailScreen(navController = navController)
         }
+        composable(route = Screens.FavoriteScreenRoute.route){
+            FavoriteScreen(navController = navController)
+        }
     }
 }
