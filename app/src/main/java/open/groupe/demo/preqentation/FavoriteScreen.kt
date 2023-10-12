@@ -23,5 +23,8 @@ fun FavoriteScreen(navController: NavController){
         Button(onClick = { navController.navigate(Screens.ProfileScreenRoute.route) }) {
             Text(text = "Profile")
         }
+        Button(onClick = { navController.navigate(Screens.DetailScreenRoute.route) }) {
+            Text(text = "Detail")
+        }
     }
 }
