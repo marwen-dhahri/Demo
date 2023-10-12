@@ -11,17 +11,17 @@ import androidx.navigation.NavController
 import open.groupe.demo.navigation.Screens
 
 @Composable
-fun ProfileScreen(navController: NavController){
+fun DetailScreen(navController: NavController){
     Column(modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
-        Text(text = "Profile")
+        Text(text = "Detail")
         Button(onClick = { navController.navigate(Screens.HomeScreenRoute.route) }) {
             Text(text = "Home")
         }
-        Button(onClick = { navController.navigate(Screens.DetailScreenRoute.route) }) {
-            Text(text = "Detail")
+        Button(onClick = { navController.navigate(Screens.ProfileScreenRoute.route) }) {
+            Text(text = "Profile")
         }
     }
 }
