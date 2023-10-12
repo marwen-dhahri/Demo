@@ -5,6 +5,7 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
 import open.groupe.demo.preqentation.DetailScreen
+import open.groupe.demo.preqentation.FavoriteScreen
 import open.groupe.demo.preqentation.HomeScreen
 import open.groupe.demo.preqentation.ProfileScreen
 
